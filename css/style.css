@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+header div h1 {
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  padding-top: 300px;
+  font-weight: bold;
+}
+header div img {
+  margin-top: 20px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px cyan;
+}
+header div .second__title {
+  text-align: center;
+  color: #ddd;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: -10px;
+  font-family: "Poppins";
+}
+header nav {
+  background-color: rgb(212, 255, 246);
+  width: 100%;
+  font-size: larger;
+  position: fixed;
+  z-index: 1;
+  box-shadow: 0 0 5px black;
+}
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 15px;
+  margin-right: 20px;
+}
+header nav ul li {
+  padding-left: 25px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+header nav ul li a:hover {
+  color: #666;
+}
+
+#background {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 27, 26, 0.8)), url("https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/12/28140346/Tratamientos-faciales-1920-4.jpg");
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: solid 10px black;
+  box-shadow: 0 0 5px black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(235, 255, 252);
+}
+
+.tratamientos-faciales {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.tratamientos-faciales .grid__item1 {
+  width: 600px;
+  margin-left: 300px;
+  background-color: rgb(221, 254, 255);
+  box-shadow: 5px 5px 0px rgb(156, 180, 178);
+}
+.tratamientos-faciales .grid__item2 {
+  width: 600px;
+  margin-left: 60px;
+  background-color: rgb(221, 254, 255);
+  box-shadow: 5px 5px 0px rgb(156, 180, 178);
+}
+.tratamientos-faciales img {
+  width: 500px;
+  height: 300px;
+  padding-bottom: 20px;
+}
+.tratamientos-faciales h3 {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-family: "Dancing Script";
+  font-size: 40px;
+}
+
+.tratamientos-corporales {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+.tratamientos-corporales .card1 {
+  width: 600px;
+  background-color: rgb(221, 254, 255);
+  box-shadow: 5px 5px 0px rgb(156, 180, 178);
+}
+.tratamientos-corporales .card2 {
+  width: 600px;
+  background-color: rgb(221, 254, 255);
+  box-shadow: 5px 5px 0px rgb(156, 180, 178);
+}
+.tratamientos-corporales .card3 {
+  width: 600px;
+  background-color: rgb(221, 254, 255);
+  box-shadow: 5px 5px 0px rgb(156, 180, 178);
+}
+.tratamientos-corporales img {
+  width: 500px;
+  height: 300px;
+  padding-bottom: 20px;
+}
+.tratamientos-corporales h3 {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-family: "Dancing Script";
+  font-size: 40px;
+}
+
+h2 {
+  margin-top: 100px;
+  font-family: "Dancing Script";
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+iframe {
+  border: 5px solid rgb(221, 254, 255);
+  box-shadow: 0 0 10px rgb(156, 180, 178);
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+footer {
+  background-color: rgb(156, 189, 184);
+  text-align: center;
+  line-height: 30px;
+  height: 7vh;
+}
+
+/*# sourceMappingURL=style.css.map */

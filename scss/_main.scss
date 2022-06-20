@@ -1,0 +1,86 @@
+// MAIN
+
+body {
+    background-color: rgb(235, 255, 252);
+}
+
+.tratamientos-faciales {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    .grid__item1 {
+        width: $anchura-card;
+        margin-left: 300px;
+        background-color: $card;
+        box-shadow: 5px 5px 0px $sombra;
+    }
+    .grid__item2 {
+        width: $anchura-card;
+        margin-left: 60px;
+        background-color: $card;
+        box-shadow: 5px 5px 0px $sombra;
+    }
+    img {
+        width: 500px;
+        height: 300px;
+        padding-bottom: 20px;
+    }
+    h3 {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        font-family: 'Dancing Script';
+        font-size: 40px;
+    }
+}
+
+.tratamientos-corporales {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    .card1 {
+        width: $anchura-card;
+        background-color: $card;
+        box-shadow: 5px 5px 0px $sombra;
+    }
+    .card2 {
+        width: $anchura-card;
+        background-color: $card;
+        box-shadow: 5px 5px 0px $sombra;
+    }
+    .card3 {
+        width: $anchura-card;
+        background-color: $card;
+        box-shadow: 5px 5px 0px $sombra;
+    }
+    img {
+        width: 500px;
+        height: 300px;
+        padding-bottom: 20px;
+    }
+    h3 {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        font-family: 'Dancing Script';
+        font-size: 40px;
+    }
+}
+
+h2 {
+    margin-top: 100px;
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+iframe {
+    border: 5px solid $card;
+    box-shadow: 0 0 10px $sombra;
+}
+section {
+    margin-bottom: 100px;
+}
